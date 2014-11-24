@@ -5,7 +5,6 @@ Scripts I use to build a new Kali system:
 
 Kali_Extra_Tools.py:
 
-install:
       Google-Chrome
       SMBEXEC 2
       PhantomJS
