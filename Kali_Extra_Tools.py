@@ -134,6 +134,12 @@ def smbexec():
         print OKGREEN + "[*] SMBEXEC has been downloaded " + ENDC
         INPUT1 = raw_input("Press any key to continue")
         print OKGREEN + "[*] Finishing the Installation: " + ENDC
+        print OKGREEN + "[*] Select #1 to install for Debian: " + ENDC
+        INPUT2 = raw_input("Press any key to continue")
+        os.system("cd /opt/smbexec/; ./install.sh")
+        print OKGREEN + "[*] Finishing the Installation: " + ENDC
+        print OKGREEN + "[*] Build the applications: #3 on the Menu " + ENDC
+        INPUT3 = raw_input("Press any key to continue")
         os.system("cd /opt/smbexec/; ./install.sh")
     main_menu()
 
