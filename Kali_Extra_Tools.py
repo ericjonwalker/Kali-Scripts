@@ -229,7 +229,7 @@ def banner():
     print "|                                            |"   
     print "|   ADDITIONAL SOFTWARE INSTALL MAIN MENU    |"
     print "|     http://www.ericjonwalker.com           |"
-    print "|     Twitter: @ericjonwalker.com            |"
+    print "|     Twitter: @ericjonwalker                |"
     print "|____________________________________________|\n" + ENDC
 #-------------------------------#
 # Main Section
