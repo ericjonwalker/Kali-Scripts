@@ -79,7 +79,7 @@ dpkg-source --commit
 ## rebuild OpenSSL with customizations
 debuild -uc -us
 
-cd..
+cd ..
 
 ## Install updated ssl package
 dpkg -i *ssl*.deb
