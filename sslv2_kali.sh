@@ -4,12 +4,12 @@
 # Purpose:      For re-enabling SSLv2 in Kali Linux
 # Written By:   Eric J. Walker
 # Date:         19 Nov 2014
-# Version:      0.2
+# Version:      0.3
 # 
 #####################################################
 # UPDATES:
-# 20 Nov 2014: added a check for needed packages
-#
+# 20 Nov 2014: Added a check for needed packages
+# 27 Feb 2015: Minor changes to script 
 #
 ######################################################
 #Change into TMP directory
