@@ -70,7 +70,7 @@ echo -e "---------------------------------------------------------"
 sleep 3
 
 ## repatch 
-quilt push -a 
+# quilt push -a 
 
 ## change description for change log
 dch -n 'Allow SSLv2'
