@@ -30,14 +30,15 @@ PKG2="quilt"
 
 for pkg in $PKG1 $PKG2
 do
-if [ "dpkg-query -W $pkg | awk {'print $1'} = $pkg" ]
-then
-    echo -e " $pkg is installed "
-else
-    echo -e " Need to install $pkg "
+##Has some errors trying to validate installed pacakages
+#if [ "dpkg-query -W $pkg | awk {'print $1'} = $pkg" ]
+#then
+#    echo -e " $pkg is installed "
+#else
+#    echo -e " Need to install $pkg "
     apt-get -y install $pkg
-    echo "Successfully installed $pkg"
-fi
+#    echo "Successfully installed $pkg"
+#fi
 done
 ######################################################
 #       Get OpenSSL Source to rebuild with SSLv2     #
