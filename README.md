@@ -1,7 +1,7 @@
-Kali-Scripts
+Kali-Scripts (for older 1.X version)
 ============
 
-Scripts I use to build a new Kali system:
+Scripts I use to build a new Kali 1.x system:
 
 Kali_Extra_Tools.py:
 
